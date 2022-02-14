@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.comments{
+  border-bottom: 1px  solid rgb(206, 206, 206);}
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+}
