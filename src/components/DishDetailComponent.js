@@ -4,7 +4,6 @@ import { Card, CardImg, CardText, CardBody,
 
         function RenderComments({comments}){
           const comment =  comments.map((comment) => {
-            console.log(comment)
             var d = new Date(comment.date); 
             let date = (d.toDateString() /* +" " + d.toTimeString().split(/\s/)[0] */);
             /* {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(comment.date)))} */
@@ -42,8 +41,7 @@ import { Card, CardImg, CardText, CardBody,
                   </div>
                   <div  className="col-12 col-md-5 m-1">
                       <RenderComments comments={props.dish.comments} />
-                      <h1>hola</h1>
-                  </div>
+                   </div>
               </div>
               </div>
             );
